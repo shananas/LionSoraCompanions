@@ -1,0 +1,105 @@
+title: Lion Sora Companions
+originalAuthor: Shananas
+game: kh2
+description: Gives you Pride Lands Donald and Goofy as your part members put above Lion Sora Sephiroth
+assets:
+
+#mset edits
+- name: obj/P_EX020.mset
+  method: copy
+  source:
+  - name: obj/P_LK020.mset
+- name: obj/P_EX020_MEMO.mset
+  method: copy
+  source:
+  - name: obj/P_LK020_MEMO.mset
+- name: obj/P_EX030.mset
+  method: copy
+  source:
+  - name: obj/P_LK030.mset
+- name: obj/P_EX030_MEMO.mset
+  method: copy
+  source:
+  - name: obj/P_LK030_MEMO.mset
+
+#obj stuff
+- name: obj/P_EX020.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK020.mdlx
+- name: obj/P_EX020.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
+- name: obj/P_EX020_NM.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK020.mdlx
+- name: obj/P_EX020_NM.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
+- name: obj/P_EX020_TR.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK020.mdlx
+- name: obj/P_EX020_TR.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
+- name: obj/P_EX020_XM.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK020.mdlx
+- name: obj/P_EX020_XM.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
+- name: obj/P_EX030.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK030.mdlx
+- name: obj/P_EX030.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK030.a.fm
+- name: obj/P_EX030_NM.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK030.mdlx
+- name: obj/P_EX030_NM.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK030.a.fm
+- name: obj/P_EX030_TR.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK030.mdlx
+- name: obj/P_EX030_TR.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK030.a.fm
+- name: obj/P_EX030_XM.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK030.mdlx
+- name: obj/P_EX030_XM.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK030.a.fm
+
+#sora form edits
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: ObjList.yml
+    type: objentry
+- method: binarc
+  name: 03system.bin
+  source:
+  - method: copy
+    name: sklt
+    source:
+    - name: sklt_0.list
+    type: list
