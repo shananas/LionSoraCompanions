@@ -87,6 +87,14 @@ assets:
   method: copy
   source:
   - name: obj/P_LK030.a.fm
+- name: obj/P_EX020_DC.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK020.mdlx
+- name: obj/P_EX020_DC.a.fm
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
 
 #sora form edits
 - name: 00objentry.bin
