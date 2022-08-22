@@ -28,33 +28,65 @@ assets:
   source:
   - name: obj/P_LK020.mdlx
 - name: obj/P_EX020.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK020.a.fm
+    type: internal
+- name: obj/P_EX020.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK020.a.us
+    type: internal
 - name: obj/P_EX020_NM.mdlx
   method: copy
   source:
   - name: obj/P_LK020.mdlx
 - name: obj/P_EX020_NM.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK020.a.fm
+    type: internal
+- name: obj/P_EX020_NM.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK020.a.us
+    type: internal
 - name: obj/P_EX020_TR.mdlx
   method: copy
   source:
   - name: obj/P_LK020.mdlx
 - name: obj/P_EX020_TR.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK020.a.fm
+    type: internal
+- name: obj/P_EX020_TR.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK020.a.us
+    type: internal
 - name: obj/P_EX020_XM.mdlx
   method: copy
   source:
   - name: obj/P_LK020.mdlx
 - name: obj/P_EX020_XM.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK020.a.fm
+    type: internal
+- name: obj/P_EX020_XM.a.us
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
+    type: internal
 - name: obj/P_EX030.mdlx
   method: copy
   source:
