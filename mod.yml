@@ -4,6 +4,22 @@ game: kh2
 description: Gives you Pride Lands Donald and Goofy as your part members put above Lion Sora Sephiroth
 assets:
 
+#sora form edits
+- name: 00objentry.bin
+  method: listpatch
+  type: List
+  source:
+  - name: ObjList.yml
+    type: objentry
+- method: binarc
+  name: 03system.bin
+  source:
+  - method: copy
+    name: sklt
+    source:
+    - name: sklt_0.list
+    type: list
+
 #mset edits
 - name: obj/P_EX020.mset
   method: copy
@@ -22,6 +38,7 @@ assets:
   source:
   - name: obj/P_LK030_MEMO.mset
 
+
 #obj stuff
 - name: obj/P_EX020.mdlx
   method: copy
@@ -39,54 +56,6 @@ assets:
   source:
   - name: obj/P_LK020.a.us
     type: internal
-- name: obj/P_EX020_NM.mdlx
-  method: copy
-  source:
-  - name: obj/P_LK020.mdlx
-- name: obj/P_EX020_NM.a.fm
-  platform: ps2
-  method: copy
-  source:
-  - name: obj/P_LK020.a.fm
-    type: internal
-- name: obj/P_EX020_NM.a.us
-  platform: pc
-  method: copy
-  source:
-  - name: obj/P_LK020.a.us
-    type: internal
-- name: obj/P_EX020_TR.mdlx
-  method: copy
-  source:
-  - name: obj/P_LK020.mdlx
-- name: obj/P_EX020_TR.a.fm
-  platform: ps2
-  method: copy
-  source:
-  - name: obj/P_LK020.a.fm
-    type: internal
-- name: obj/P_EX020_TR.a.us
-  platform: pc
-  method: copy
-  source:
-  - name: obj/P_LK020.a.us
-    type: internal
-- name: obj/P_EX020_XM.mdlx
-  method: copy
-  source:
-  - name: obj/P_LK020.mdlx
-- name: obj/P_EX020_XM.a.fm
-  platform: ps2
-  method: copy
-  source:
-  - name: obj/P_LK020.a.fm
-    type: internal
-- name: obj/P_EX020_XM.a.us
-  platform: ps2
-  method: copy
-  source:
-  - name: obj/P_LK020.a.fm
-    type: internal
 - name: obj/P_EX030.mdlx
   method: copy
   source:
@@ -95,77 +64,65 @@ assets:
   method: copy
   source:
   - name: obj/P_LK030.a.fm
-- name: obj/P_EX030_NM.mdlx
-  method: copy
-  source:
-  - name: obj/P_LK030.mdlx
-- name: obj/P_EX030_NM.a.fm
-  method: copy
-  source:
-  - name: obj/P_LK030.a.fm
-- name: obj/P_EX030_TR.mdlx
-  method: copy
-  source:
-  - name: obj/P_LK030.mdlx
-- name: obj/P_EX030_TR.a.fm
-  method: copy
-  source:
-  - name: obj/P_LK030.a.fm
-- name: obj/P_EX030_XM.mdlx
-  method: copy
-  source:
-  - name: obj/P_LK030.mdlx
-- name: obj/P_EX030_XM.a.fm
-  method: copy
-  source:
-  - name: obj/P_LK030.a.fm
 
-#Rando Shit
-- name: obj/P_EX020_DC.mdlx
+#PC Remastered
+- name: remastered/obj/P_EX020.a.us/-0.dds
+  platform: pc
   method: copy
   source:
-  - name: obj/P_LK020.mdlx
-- name: obj/P_EX020_DC.a.fm
+  - name: remastered/obj/P_LK020.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX020.a.us/-1.dds
+  platform: pc
   method: copy
   source:
-  - name: obj/P_LK020.a.fm
-- name: obj/P_EX030_DC.mdlx
+  - name: remastered/obj/P_LK020.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX020.a.us/-2.dds
+  platform: pc
   method: copy
   source:
-  - name: obj/P_LK030.mdlx
-- name: obj/P_EX030_DC.a.fm
+  - name: remastered/obj/P_LK020.a.us/-2.dds
+    type: internal
+- name: remastered/obj/P_EX020.a.us/-3.dds
+  platform: pc
   method: copy
   source:
-  - name: obj/P_LK030.a.fm
-- name: obj/P_EX020_CO.mdlx
+  - name: remastered/obj/P_LK020.a.us/-3.dds
+    type: internal
+- name: remastered/obj/P_EX020.a.us/-4.dds
+  platform: pc
   method: copy
   source:
-  - name: obj/P_LK020.mdlx
-- name: obj/P_EX020_CO.a.fm
+  - name: remastered/obj/P_LK020.a.us/-4.dds
+    type: internal
+- name: remastered/obj/P_EX020.a.us/-5.dds
+  platform: pc
   method: copy
   source:
-  - name: obj/P_LK020.a.fm
-- name: obj/P_EX030_CO.mdlx
+  - name: remastered/obj/P_LK020.a.us/-5.dds
+    type: internal
+- name: remastered/obj/P_EX020.a.us/-6.dds
+  platform: pc
   method: copy
   source:
-  - name: obj/P_LK030.mdlx
-- name: obj/P_EX030_CO.a.fm
+  - name: remastered/obj/P_LK020.a.us/-6.dds
+    type: internal
+- name: remastered/obj/P_EX030.a.us/-0.dds
+  platform: pc
   method: copy
   source:
-  - name: obj/P_LK030.a.fm
-
-#sora form edits
-- name: 00objentry.bin
-  method: listpatch
-  type: List
+  - name: remastered/obj/P_LK030.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX030.a.us/-1.dds
+  platform: pc
+  method: copy
   source:
-  - name: ObjList.yml
-    type: objentry
-- method: binarc
-  name: 03system.bin
+  - name: remastered/obj/P_LK030.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX030.a.us/-2.dds
+  platform: pc
+  method: copy
   source:
-  - method: copy
-    name: sklt
-    source:
-    - name: sklt_0.list
-    type: list
+  - name: remastered/obj/P_LK030.a.us/-2.dds
+    type: internal
