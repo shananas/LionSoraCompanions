@@ -25,11 +25,20 @@ assets:
   method: copy
   source:
   - name: obj/P_LK020.mset
+- name: obj/P_EX020_MEMO.mset
+  method: copy
+  source:
+  - name: obj/P_LK020_MEMO.mset
+    type: internal
 - name: obj/P_EX030.mset
   method: copy
   source:
   - name: obj/P_LK030.mset
-
+- name: obj/P_EX030_MEMO.mset
+  method: copy
+  source:
+  - name: obj/P_LK030_MEMO.mset
+    type: internal
 
 #obj stuff
 - name: obj/P_EX020.mdlx
