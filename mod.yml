@@ -62,9 +62,305 @@ assets:
   source:
   - name: obj/P_LK030.mdlx
 - name: obj/P_EX030.a.fm
+  platform: ps2
   method: copy
   source:
   - name: obj/P_LK030.a.fm
+    type: internal
+- name: obj/P_EX030.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK030.a.us
+    type: internal
+
+#Rando Shit
+- name: obj/P_EX020_DC.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK020.mdlx
+- name: obj/P_EX020_DC.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
+    type: internal
+- name: obj/P_EX020_DC.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK020.a.us
+    type: internal
+- name: obj/P_EX030_DC.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK030.mdlx
+- name: obj/P_EX030_DC.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/P_LK030.a.fm
+    type: internal
+- name: obj/P_EX030_DC.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK030.a.us
+    type: internal
+- name: obj/P_EX020_CM.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK020.mdlx
+- name: obj/P_EX020_CM.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/P_LK020.a.fm
+    type: internal
+- name: obj/P_EX020_CM.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK020.a.us
+    type: internal
+- name: obj/P_EX030_CM.mdlx
+  method: copy
+  source:
+  - name: obj/P_LK030.mdlx
+- name: obj/P_EX030_CM.a.fm
+  platform: ps2
+  method: copy
+  source:
+  - name: obj/P_LK030.a.fm
+    type: internal
+- name: obj/P_EX030_CM.a.us
+  platform: pc
+  method: copy
+  source:
+  - name: obj/P_LK030.a.us
+    type: internal
+
+#Rando shit PC remastered
+#Donald DC
+- name: remastered/obj/P_EX020_DC.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.mdlx/-0.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.mdlx/-1.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.mdlx/-2.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.mdlx/-3.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-2.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-3.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-4.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-5.dds
+    type: internal
+- name: remastered/obj/P_EX020_DC.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-6.dds
+    type: internal
+#Donald CO
+- name: remastered/obj/P_EX020_CM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.mdlx/-0.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.mdlx/-1.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.mdlx/-2.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.mdlx/-3.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-2.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.a.us/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-3.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.a.us/-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-4.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.a.us/-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-5.dds
+    type: internal
+- name: remastered/obj/P_EX020_CM.a.us/-6.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK020.a.us/-6.dds
+    type: internal
+  #Goofy DC
+- name: remastered/obj/P_EX030_DC.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.mdlx/-0.dds
+    type: internal
+- name: remastered/obj/P_EX030_DC.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.mdlx/-1.dds
+    type: internal
+- name: remastered/obj/P_EX030_DC.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.mdlx/-2.dds
+    type: internal
+- name: remastered/obj/P_EX030_DC.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.mdlx/-3.dds
+    type: internal
+- name: remastered/obj/P_EX030_DC.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX030_DC.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX030_DC.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.a.us/-2.dds
+    type: internal
+# Goofy CO
+- name: remastered/obj/P_EX030_CM.mdlx/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.mdlx/-0.dds
+    type: internal
+- name: remastered/obj/P_EX030_CM.mdlx/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.mdlx/-1.dds
+    type: internal
+- name: remastered/obj/P_EX030_CM.mdlx/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.mdlx/-2.dds
+    type: internal
+- name: remastered/obj/P_EX030_CM.mdlx/-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.mdlx/-3.dds
+    type: internal
+- name: remastered/obj/P_EX030_CM.a.us/-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.a.us/-0.dds
+    type: internal
+- name: remastered/obj/P_EX030_CM.a.us/-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.a.us/-1.dds
+    type: internal
+- name: remastered/obj/P_EX030_CM.a.us/-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/obj/P_LK030.a.us/-2.dds
+    type: internal
 
 #PC Remastered
 - name: remastered/obj/P_EX020.a.us/-0.dds
