@@ -14,11 +14,12 @@ assets:
 - method: binarc
   name: 03system.bin
   source:
-  - method: copy
-    name: sklt
+  - name: sklt
+    method: listpatch
+    type: List
     source:
-    - name: sklt_0.list
-    type: list
+    - name: SkltList.yml
+      type: sklt
 
 #mset edits
 - name: obj/P_EX020.mset
